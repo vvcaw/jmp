@@ -34,9 +34,11 @@ library
   build-depends:
       base >=4.7 && <5
     , brick
+    , containers
     , microlens
     , microlens-mtl
     , microlens-th
+    , process
     , vty
   default-language: Haskell2010
 
@@ -50,10 +52,12 @@ executable jmp-exe
   build-depends:
       base >=4.7 && <5
     , brick
+    , containers
     , jmp
     , microlens
     , microlens-mtl
     , microlens-th
+    , process
     , vty
   default-language: Haskell2010
 
@@ -68,9 +72,11 @@ test-suite jmp-test
   build-depends:
       base >=4.7 && <5
     , brick
+    , containers
     , jmp
     , microlens
     , microlens-mtl
     , microlens-th
+    , process
     , vty
   default-language: Haskell2010

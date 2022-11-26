@@ -1,6 +1,7 @@
 module Main (main) where
 
 import Lib
+import Data.Map
 
 main :: IO ()
-main = someFunc
+main = evaluateCommandWithLabel (fromList [("list", "ls")]) "list"
