@@ -35,6 +35,7 @@ library
       base >=4.7 && <5
     , brick
     , containers
+    , directory
     , microlens
     , microlens-mtl
     , microlens-th
@@ -53,6 +54,7 @@ executable jmp-exe
       base >=4.7 && <5
     , brick
     , containers
+    , directory
     , jmp
     , microlens
     , microlens-mtl
@@ -73,6 +75,7 @@ test-suite jmp-test
       base >=4.7 && <5
     , brick
     , containers
+    , directory
     , jmp
     , microlens
     , microlens-mtl

@@ -28,6 +28,7 @@ dependencies:
 - microlens-mtl 
 - process
 - containers
+- directory
 
 ghc-options:
 - -Wall
@@ -60,6 +61,7 @@ executables:
     - microlens-mtl
     - process
     - containers
+    - directory
 
 tests:
   jmp-test:
